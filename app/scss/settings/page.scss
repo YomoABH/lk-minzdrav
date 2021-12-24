@@ -1,0 +1,34 @@
+// Настройка общей оболочки сайта 
+html,
+body {
+	height: 100%;
+}
+body {
+	font-size: 16px;
+	color: #606060;
+	background-color: #e5e5e565;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+input {
+	outline: none;
+}
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+.footer {
+}

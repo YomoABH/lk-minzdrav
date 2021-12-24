@@ -1,0 +1,110 @@
+.features {
+	padding: 0px 0px 26px 0px;
+	
+	&__title {
+		margin-left: 30px;
+	}
+
+	&__item {
+		padding-left: 74px;
+		margin: 55px auto;
+	}
+
+	&__item-title {
+		margin-bottom: 8px;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 25px;
+		color: #16145A;
+	}
+
+	&__text {
+		font-size: 15px;
+		line-height: 21px;
+	}
+}
+
+.features-item {
+
+	&__key {
+		position: relative;
+		&::after {
+			content: "";
+			width: 50px;
+			height: 54px;
+			position: absolute;
+			left: 0;
+			top: -13px;
+			background: url(../../img/icon/key.svg) no-repeat;
+
+		}
+	}
+
+	&__qr {
+		position: relative;
+		&::after {
+			content: "";
+			width: 50px;
+			height: 54px;
+			position: absolute;
+			left: 0;
+			top: -13px;
+			background: url(../../img/icon/QR.svg) no-repeat;
+		}
+
+	}
+
+	&__app {
+		position: relative;
+		&::after {
+			content: "";
+			width: 50px;
+			height: 58px;
+			position: absolute;
+			left: 0;
+			top: -13px;
+			background: url(../../img/icon/app.svg) no-repeat;
+		}
+
+	}
+
+	&__certificate {
+		position: relative;
+		&::after {
+			content: "";
+			width: 50px;
+			height: 55px;
+			position: absolute;
+			left: 0;
+			top: -13px;
+			background: url(../../img/icon/certificate.svg) no-repeat;
+		}
+	}
+
+	&__clock {
+		position: relative;
+		&::after {
+			content: "";
+			width: 52px;
+			height: 57px;
+			position: absolute;
+			left: 0;
+			top: -13px;
+			background: url(../../img/icon/clock.svg) no-repeat;
+		}
+	}
+
+	&__confid {
+		position: relative;
+		&::after {
+			content: "";
+			width: 51px;
+			height: 58px;
+			position: absolute;
+			left: 0;
+			top: -13px;
+			background: url(../../img/icon/confid.svg) no-repeat;
+		}
+
+	}
+}

@@ -1,0 +1,75 @@
+.imput {
+	padding: 0px 0px 161px 0px;
+	
+	&__title {
+		margin: 0px 0px 83px 30px;
+		
+	}
+
+	&__inner-input {
+		margin-bottom: 29px;
+		position: relative;
+		width: 463px;
+		height: 60px;
+		border: 1px solid rgba(96, 96, 96, 0.8);
+		box-sizing: border-box;
+		border-radius: 26px;
+	}
+
+	&__imput-label {
+		padding: 0 5px;
+		position: absolute;
+		left: 60px;
+		top: -12px;
+		font-size: 15px;
+		line-height: 21px;
+		background-color: #f3f3f3;
+		overflow: hidden;
+	}
+
+	&__input {
+		padding: 0px 0px 0px 25px;
+		width: 100%;
+		height: 100%;
+		background-color: #e5e5e565;
+		border-radius: 26px;
+		border: none;
+		opacity: 0;
+		transition: all 0.1s 0s;
+		&:focus {
+			opacity: 1;
+		}
+	}
+
+	&__recovery {
+		font-size: 15px;
+		line-height: 21px;
+		color: #16145A;
+	}
+
+	&__btn {
+		margin-top: 17px;
+	}
+	&__text {
+		font-size: 16px;
+		line-height: 23px;
+		p {
+			margin-bottom: 18px;
+		}
+		a {
+			font-weight: 500;
+			color: #16145A;
+			transition: all 0.3s 0ss;
+			&:hover {
+				color: #2822d8;
+			} 
+		}
+		span {
+			font-size: 20px;
+			line-height: 28px;
+			a {
+
+			}
+		}
+	}
+}

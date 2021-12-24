@@ -1,0 +1,32 @@
+.promo {
+	margin: 121px 0px 0px 0px;
+	padding: 51px 0px 76px 0px;
+	
+	&__content {
+	}
+
+	&__title {
+		font-family: 'Navigo', sans-serif;
+		font-size: 64px;
+		color: #16145A;
+		margin-bottom: 37px;
+	}
+
+	&__text {
+		font-family: 'Navigo', sans-serif;
+		font-size: 26px;
+		line-height: 37px;
+		color: #606060;
+		margin-bottom: 31px;
+		p {
+			margin-bottom: 8px;
+		}
+	}
+
+	&__btn {
+	}
+
+	&__img {
+		max-width: 100%;
+	}
+}

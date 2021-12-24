@@ -1,0 +1,53 @@
+._btn {
+	display: inline-block;
+	width: 136px;
+	height: 44px;
+	background: #FDCF30;
+	border-radius: 27.6895px;
+
+	text-align: center;
+	font-size: 18px;
+	line-height: 42px;
+	color: #FFFFFF;
+
+	transition:  all 0.4s 0s;
+	&:hover {
+		background: #FFB800;
+		color: #FFFFFF;
+	}
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	&__icon {
+		margin-right: 15px;
+	}
+
+	&__text {
+		font-family: Arial;
+		font-size: 18px;
+		line-height: 21px;
+		color: #16145A;
+	}
+}
+
+.title-h2 {
+	font-size: 42px;
+	color: #16145A;
+}
+
+@media (max-width: 767px) {
+	.title-h2 {
+		font-size: 29px;
+		text-align: center;
+	}
+	
+}
+@media (max-width: 565px) {
+	.title-h2 {
+		font-size: 25px;
+		line-height: 35px;
+	}
+
+}
