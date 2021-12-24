@@ -4,6 +4,11 @@
 			font-size: 24px;
 		}
 	}
+	.faq {
+		&__text {
+			font-size: 22px;
+		}
+	}
 }
 @media (max-width: 991px) {
 	.header {
@@ -95,6 +100,15 @@
 			margin-top: 15px;
 		}
 	} 
+	.faq {
+		&__icon {
+			margin-bottom: 15px;
+		}
+		&__text {
+			text-align: center;
+		}
+	}
+
 }
 @media (max-width: 767px) {
 		.header {
@@ -317,6 +331,16 @@ min-height: 50px;
 		}
 	}
 }
+.faq {
+	&__icon {
+		display: none;
+	}
+	&__text {
+		margin-top: 40px;
+	}
+}
+
+
 .footer{
 	&__links-main {
 		font-size: 14px;
@@ -371,11 +395,27 @@ min-height: 50px;
 		}
 	}
 	.features {
-	
 		&__item {
 			padding: 74px 50px 0px 50px;
 		}
 	}
+	.faq {
+		&__text {
+			font-size: 20px;
+		}
+	}
+	
+
+	.footer {
+		&__logo {
+			img {
+				display: block;
+				width: 34px;
+				height: 44px;
+			}
+		}
+	}
+
 }
 .imput {
 	&__title {
@@ -392,14 +432,6 @@ min-height: 50px;
 		p {
 		}
 	}
-	.footer {
-		&__logo {
-			img {
-				display: block;
-				width: 34px;
-				height: 44px;
-			}
-		}
-	}
+	
 }
 

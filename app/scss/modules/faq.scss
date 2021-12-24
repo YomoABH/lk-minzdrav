@@ -1,0 +1,55 @@
+
+.faq {
+
+	&__title {
+		margin-bottom: 40px;
+	}
+
+	&__details {
+		margin-bottom: 13px;
+		summary {
+			display: inline-block;
+			border-radius: 16px;
+			border: 1px solid #C6C6C6;
+			padding: 10px 30px;
+			cursor: pointer;
+			width: 100%;
+			&:before {
+				content: "+";
+				margin-right: .3em;
+		}
+	}
+	p {
+		display: block;
+		color: #272833;
+		padding: 10px;
+	}
+
+}
+	details[open] > summary {
+		border: 1px solid #16145A;
+		}
+		details[open] > summary:before {
+			content: "–";
+		}
+	&__inner {
+	}
+
+	&__icon {
+		text-align: center;
+		font-size: 144px;
+		line-height: 1em;
+		color: #FDCF30;
+		margin: 0px auto 30px auto;
+	}
+
+	&__text {
+		font-size: 24px;
+		line-height: 38px;
+		color: #272833;
+		a {
+			color: 
+			#1d17df;
+		}
+	}
+}

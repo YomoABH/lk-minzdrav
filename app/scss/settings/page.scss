@@ -17,6 +17,12 @@ ul {
 input {
 	outline: none;
 }
+summary {
+	outline: none;
+	&::marker {
+		content: "";
+	}
+}
 .wrapper {
 	min-height: 100%;
 	display: flex;
